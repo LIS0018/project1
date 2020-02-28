@@ -1,38 +1,85 @@
 
-#footer{
-    height: 100px;
-    width: 100%;
-	background: #DDDDDD;
-	border-top: 1px solid #999999;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    font-size: 25px;
+body{
+	background: url(images/home-back.jpg);
+	background-size: cover;
+	
+}
+h1{
+	padding: 15px;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: darkblue;
+	height: 58px;
+	font-size: 33px;
+}
+#intro{
+	background: url(images/intro.jpg) ;
+	background-size: cover;
+	width: 94%;
+	
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	margin: auto;
+}
+
+h2{
+	font-size: 28px;
+	width: 97%;
+	margin: auto;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: cornflowerblue;
+	
 }
 #navigate {
-	height: 40px; 
-    text-align: center;
+	margin: auto;
+	width: 100%;
+	
     font-size: 35px;
-    background-color: gray;
+	background-color: darkblue;
+	display: flex;
+	justify-content: space-around;
+	
 }
 
-#navigate li {
-	display: block;
-	float: left;
-	margin-right: 1px;
-	padding: 0;
-}
 #navigate a {
-	display: block;
-	float: left;
+	margin-top: 15px;
+	position: relative;
+	margin-bottom: 25px;
+}
+#navigate a img{
+	background-size:contain,cover ;
+	width:100%;
+	height: auto;
+}
+#overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+  }
+#navigate a:hover #overlay{
+	opacity: 1;
+}
+#text{
 	color: white;
+	font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
-#navigate a:hover {
-	color: #1777B1;
-}
-#navigate b {
-	display: block;
 
-	height: 23px;     
-	padding: 7px 20px 0 20px;
-}
+
+
