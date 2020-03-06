@@ -9,7 +9,7 @@ h1{
 	color: white;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	background-color: darkblue;
-	height: 58px;
+	
 	font-size: 33px;
 }
 #intro{
@@ -71,7 +71,7 @@ h2{
 #text{
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
+    font-size: 3vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -79,6 +79,43 @@ h2{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+h3{
+	font-size: 24px;
+	width: 94%;
+	margin: auto;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: cornflowerblue;
+	
+}
+#comment{
+	color: white;
+	background-color: darkblue;
+	width: 54%;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+}
+#comment2{
+	margin: auto;
+	width: 90%;
+	font-size: 18px;
+}
+h4{
+	width: 54%;
+	background-color: darkblue;
+	margin: auto;
+}
+#footer{
+	bottom:0;
+	width: 100%;
+	background-color: gainsboro;
+	color: blue;
+	font-size: large;
+	text-align: center;
+	height:60px;
+	padding-top: 10px;
 }
 
 

@@ -1,5 +1,5 @@
 body{
-	background: url();
+	background: url(images/2-back.jpg);
 	background-size: cover;
 }
 
@@ -17,7 +17,8 @@ h1{
     background-color:  #FFFF99;
     width: 100%;
     display: flex;
-    margin: auto;
+	margin: auto;
+	border-radius: 10px;
 }
 
 #navigateBar li {
@@ -35,5 +36,83 @@ h1{
 }
 #navigateBar b {
 	height: 23px;     
-	padding: 7px 20px 0 20px;
+	padding: 0px 20px 0 20px;
+}
+
+#container{
+	width: 94%;
+	background-image: url(images/2-contain.jpg);
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	border-radius: 10px;
+}
+#name {
+	text-align: center;
+}
+#box1{
+	margin-top: 10px;
+	border-radius: 25px;
+	display: inline-block;
+	padding: 15px;
+	width: 26%;
+	background-color: lightgoldenrodyellow;
+	box-shadow: 5px 5px  lightgray;
+	margin-bottom: 13px;
+}
+img {
+	width: 100%;
+	height: auto;
+	
+	box-sizing: border-box;
+	box-shadow:5px 5px lightgray;
+  }
+h2{
+	margin: auto;
+	padding: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+#box1 p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgb(15, 98, 180);
+	font-size: 20px;
+}
+
+
+#container2{
+	background-color: lightcyan;
+	width: 75%;
+	margin: auto;
+	border-radius: 20px;
+}
+h3{
+	padding-top: 10px;
+	font-size: 25px;
+	font-family: sans-serif;
+	padding-left: 40px;
+}
+#video{
+	margin: auto;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+@media (max-width: 970px){
+	#container{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	#box1{
+		width: 85%;
+		height: 28%;
+		margin: auto;
+		margin-top: 5px;
+		box-shadow: none;
+		margin-bottom: 5px;
+	}
+	#video{
+		padding-left: 10px;
+		height: 40%;
+	}
 }
