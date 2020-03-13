@@ -1,9 +1,10 @@
 <html>
     <head>
-        <link rel="stylesheet" href= "page2.css">
+        <link rel="stylesheet" href= "page3.css">
         <title>
             Shuyu Li's blog ~~
         </title>
+        
     </head>
     <body >
         <h1>StarCraft II</h1>
@@ -15,6 +16,43 @@
                 <li><a href="page5.html"><b>Heroes of the Storm</b></a></li>
             </ul>
         </div>
+        <br>
+        
+        <div>
+            <div class="bg bg-blur"></div>
+            <div class="content content-front">StarCraft II is a science fiction real-time strategy video game developed by Blizzard Entertainment.<br><br>
+                It has several game modes, including single-player campaign, multiplayer mode, custom mode and cooperation mode.<br><br>
+                In game, there are three different races: brave Terran, greedy Zerg and noble Protoss. As players, you can choose any one of them.
+                If you are confident with your skills, you can experience the most competitive mode: multiplayer mode.<br><br>
+                But if you just want to have fun and relax, you can choose to play cooperation mode. 
+                In cooperation mode, we have 18 different commanders, choose your favorite and use powerful skills!</div>
+        </div>
+        <br>
+        
+        <br>
+        <div class="imgBox">
+            <div id="header">StarCraft's Gallery</div>
+            <img class="img-slide img1" src="images/3-1.jpg" alt="1">
+            <img class="img-slide img2" src="images/3-2.png" alt="2">
+            <img class="img-slide img2" src="images/3-3.jpg" alt="3">
+            <img class="img-slide img2" src="images/3-4.jpg" alt="4">
+            <img class="img-slide img2" src="images/3-5.png" alt="5">
+        </div>
+        <script type="text/javascript">
+            var index=0;
+            function ChangeImg() {
+                index++;
+                var a=document.getElementsByClassName("img-slide");
+                if(index>=a.length) index=0;
+                for(var i=0;i<a.length;i++){
+                    a[i].style.display='none';
+                }
+                a[index].style.display='block';
+            }
+            setInterval(ChangeImg,2000);
+        </script>
+        <div id="footer">For more information, visit <a href="https://starcraft2.com/en-us/" target="_blank">Starcraft2.com</a></div>
+        </body>
     </body>
 
 </html>
