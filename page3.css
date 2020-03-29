@@ -17,7 +17,8 @@ h1{
     background-color:  #FFFF99;
     width: 100%;
     display: flex;
-    margin: auto;
+	margin: auto;
+	border-radius: 10px;
 }
 
 #navigateBar li {
@@ -56,12 +57,10 @@ h1{
 
 .img1{
 	display: block;
-
 }
 
 .img2{
 	display: none;
-	
 }
 
 .bg {

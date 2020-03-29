@@ -1,5 +1,5 @@
 body{
-	background: url();
+	background: url(images/4-back.jpg);
 	background-size: cover;
 }
 
@@ -17,7 +17,8 @@ h1{
     background-color:  #FFFF99;
     width: 100%;
     display: flex;
-    margin: auto;
+	margin: auto;
+	border-radius: 10px;
 }
 
 #navigateBar li {
@@ -36,4 +37,94 @@ h1{
 #navigateBar b {
 	height: 23px;     
 	padding: 7px 20px 0 20px;
+}
+
+#part1{
+	width: 96%;
+	background-color: rgba(144, 238, 144, 0.5);
+	height: 270px;
+	margin: auto;
+	
+}
+#img1{
+	width: 30%;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+#text1{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 66%;
+	float: left;
+	background-color: lightskyblue;
+	padding-left: 2%;
+	font-size: larger;
+}
+#part2{
+	width: 96%;
+	background-color: rgba(144, 238, 144, 0.5);
+	height: 270px;
+	margin: auto;
+	
+}
+#img2{
+	width: 30%;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#text2{
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 66%;
+	float: right;
+	background-color: lightskyblue;
+	padding-left: 2%;
+	font-size: larger;
+}
+
+
+@media (max-width: 970px){
+	#part1{
+		height: 680px;
+		margin: auto;
+	}
+	#img1{
+		width: 90%;
+		margin: 10px 10px 0 10px;
+		
+	}
+	#text1{
+		width: 94%;
+		background-color: lightskyblue;
+		padding-left: 2%;
+		font-size: larger;
+	}
+	#part2{
+		height: 680px;
+		margin: auto;
+	}
+	#img2{
+		width: 90%;
+		margin: 10px 10px 0 10px;
+		
+	}
+	#text2{
+		width: 94%;
+		background-color: lightskyblue;
+		padding-left: 2%;
+		font-size: larger;
+	}
+}
+
+@media (max-width: 762px){
+	#part1{
+		height: 580px;
+		margin: auto;
+	}
+	#part2{
+		height: 580px;
+		margin: auto;
+	}
 }
