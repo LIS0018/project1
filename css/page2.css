@@ -1,16 +1,9 @@
 body{
-	background: url(images/2-back.jpg);
-	background-size: cover;
+	background: url(../images/2-back.jpg);
+	
 }
 
-h1{
-	padding: 15px;
-	color: white;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	background-color: darkblue;
-	height: 58px;
-	font-size: 33px;
-}
+
 #navigateBar{
 	text-align: center;
     font-size: 20px;
@@ -47,10 +40,30 @@ h1{
 	margin: auto;
 	border-radius: 10px;
 }
-#name {
+#name1,  #name2, #name3{
 	text-align: center;
 }
 #box1{
+	margin-top: 10px;
+	border-radius: 25px;
+	display: inline-block;
+	padding: 15px;
+	width: 26%;
+	background-color: lightgoldenrodyellow;
+	box-shadow: 5px 5px  lightgray;
+	margin-bottom: 13px;
+}
+#box2{
+	margin-top: 10px;
+	border-radius: 25px;
+	display: inline-block;
+	padding: 15px;
+	width: 26%;
+	background-color: lightgoldenrodyellow;
+	box-shadow: 5px 5px  lightgray;
+	margin-bottom: 13px;
+}
+#box3{
 	margin-top: 10px;
 	border-radius: 25px;
 	display: inline-block;
@@ -78,13 +91,26 @@ h2{
 	color: rgb(15, 98, 180);
 	font-size: 20px;
 }
+#box2 p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgb(15, 98, 180);
+	font-size: 20px;
+}
+#box3 p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgb(15, 98, 180);
+	font-size: 20px;
+}
 
 
 #container2{
 	background-color: lightcyan;
 	width: 75%;
+	height: 550px;
 	margin: auto;
 	border-radius: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
 }
 h3{
 	padding-top: 10px;
@@ -94,8 +120,9 @@ h3{
 }
 #video{
 	margin: auto;
-	padding-left: 40px;
-	padding-bottom: 10px;
+	height: 70%;
+	width: 75%;	
+	
 }
 @media (max-width: 970px){
 	#container{
@@ -111,8 +138,23 @@ h3{
 		box-shadow: none;
 		margin-bottom: 5px;
 	}
+	#box2{
+		width: 85%;
+		height: 28%;
+		margin: auto;
+		margin-top: 5px;
+		box-shadow: none;
+		margin-bottom: 5px;
+	}
+	#box3{
+		width: 85%;
+		height: 28%;
+		margin: auto;
+		margin-top: 5px;
+		box-shadow: none;
+		margin-bottom: 5px;
+	}
 	#video{
-		padding-left: 10px;
 		height: 40%;
 	}
 }

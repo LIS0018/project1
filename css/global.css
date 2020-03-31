@@ -1,0 +1,10 @@
+body{
+    background-size: cover;
+}
+h1{
+	padding: 15px;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: darkblue;
+	font-size: 33px;
+}
