@@ -35,12 +35,12 @@ body{
 #part1{
 	width: 96%;
 	background-color: rgba(144, 238, 144, 0.5);
-	height: 270px;
+	height: 290px;
 	margin: auto;
 	
 }
 #img1{
-	width: 30%;
+	width: 27%;
 	float: right;
 	margin-right: 5px;
 	margin-top: 5px;
@@ -57,12 +57,12 @@ body{
 #part2{
 	width: 96%;
 	background-color: rgba(144, 238, 144, 0.5);
-	height: 270px;
+	height: 290px;
 	margin: auto;
 	
 }
 #img2{
-	width: 30%;
+	width: 27%;
 	float: left;
 	margin-left: 5px;
 	margin-top: 5px;
