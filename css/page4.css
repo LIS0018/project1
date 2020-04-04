@@ -52,7 +52,7 @@ body{
 	float: left;
 	background-color: lightskyblue;
 	padding-left: 2%;
-	font-size: larger;
+	font-size: 1.2vw;
 }
 #part2{
 	width: 96%;
@@ -74,7 +74,7 @@ body{
 	float: right;
 	background-color: lightskyblue;
 	padding-left: 2%;
-	font-size: larger;
+	font-size: 1.2vw;
 }
 #footer{
 	bottom:0;

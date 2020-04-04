@@ -43,18 +43,8 @@
             <img class="img-slide img2" src="images/3-4.jpg" alt="4">
             <img class="img-slide img2" src="images/3-5.png" alt="5">
         </div>
-        <script>
-            var index=0;
-            function ChangeImg() {
-                index++;
-                var a=document.getElementsByClassName("img-slide");
-                if(index>=a.length) index=0;
-                for(var i=0;i<a.length;i++){
-                    a[i].style.display='none';
-                }
-                a[index].style.display='block';
-            }
-            setInterval(ChangeImg,2000);
+        <script src="js/page3.js">
+            
         </script>
         <div id="footer">For more information, visit <a href="https://starcraft2.com/en-us/" target="_blank">Starcraft2.com</a></div>
         
